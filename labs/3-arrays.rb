@@ -14,9 +14,9 @@
 my_list = ["milk","eggs","bacon"]
 friend_list = ["beer","cookies","apples","bacon"]
 shopping_list = my_list + friend_list
-puts shopping_list.uniq.sort
+puts shopping_list.uniq.sort.inspect
 
-puts my_list.union(friend_list).sort
+puts my_list.union(friend_list).sort.inspect
 
 # HINTS
 # Learn to read the documentation!

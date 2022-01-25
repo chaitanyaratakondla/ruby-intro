@@ -26,3 +26,7 @@ weather_data = {
     { temperature: 70, conditions: "Partly Cloudy" }
   ]
 }
+
+puts "Today, the temperature is #{weather_data[:current][:temperature]} degrees and it is #{weather_data[:current][:conditions].downcase}."
+puts "Tomorrow, the temperature will be #{weather_data[:forecast][0][:temperature]} degrees and it will be #{weather_data[:forecast][0][:conditions].downcase}."
+puts "The day after, the temperature will be #{weather_data[:forecast][1][:temperature]} degrees and it will be #{weather_data[:forecast][1][:conditions].downcase}."
