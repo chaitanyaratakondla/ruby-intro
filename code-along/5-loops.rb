@@ -9,7 +9,7 @@ things_that_would_be_better_with_bacon = ["tacos", "cheeseburgers", "donuts","sa
 # The New Way
 for bacon in things_that_would_be_better_with_bacon
     # 1st time, this will be tacos
-    puts "#{bacon} would be better with bacon! "
+    puts "#{bacon.capitalize} would be better with bacon! "
     # 2nd time, this will be burgers
     # and so on, until you get to salads
 end
